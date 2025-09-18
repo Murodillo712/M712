@@ -18,7 +18,7 @@ import odam3 from "../public/odam3.png";
 import Spicy from "../public/spicy.png";
 import Nuts from "../public/Nuts.png";
 import anor0 from "../public/anor.png";
-import Vegetable from "../public/Vegetable.avif";
+import Vegetable from "../public/vegetable.avif";
 import uy1 from "../public/uy1.svg";
 import uy2 from "../public/uy2.svg";
 
