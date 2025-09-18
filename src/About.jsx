@@ -4,8 +4,7 @@ import Footer from './Footer'
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
-import { FaPinterest } from "react-icons/fa";
-import { Link } from "react-router-dom";
+
 import Banner from "../public/Banner.png";
 import Salat from "../public/salat.png";
 import Barg1 from "../public/barg1.png";
@@ -19,7 +18,7 @@ import odam3 from "../public/odam3.png";
 import Spicy from "../public/spicy.png";
 import Nuts from "../public/Nuts.png";
 import anor0 from "../public/anor.png";
-import Vegetable from "../public/vegetable.avif";
+import Vegetable from "../public/Vegetable.avif";
 import uy1 from "../public/uy1.svg";
 import uy2 from "../public/uy2.svg";
 
