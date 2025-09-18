@@ -3,12 +3,15 @@ import React from "react";
 import ProductCard1 from "./ProductCard1";
 import Footer from "./Footer"
 import products from './Products';
+import shop from '../public/shop.png';
 
 const Shop = () => {
   return (
     <div className="bg-white">
-      <div className="max-w-7xl mx-auto px-6 py-12">
-        <div className="bg-[url('/shop.png')] bg-cover h-[40vh] rounded-2xl mb-10" />
+      <div className="w-full mx-auto px-6 py-12">
+        <div className="bg-[url('/gul2.png')] bg-cover bg-center h-[40vh] flex items-center justify-center rounded-b-lg"
+          style={{ backgroundImage: `url(${shop})` }}
+        />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {products.map((p) => (
             <ProductCard1

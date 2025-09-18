@@ -1,20 +1,22 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // 👈 Qo'shildi
+import { Link } from 'react-router-dom';
 import Lorader from './Loader';
 import Footer from './Footer';
-import { projects } from '../src/projects'; // 👈 Qo'shildi
+import gul2 from '../public/gul2.png';
+import { projects } from '../src/projects';
 
 const Page2 = () => {
-    // Mahsulotlarni 2 qatorga bo'lish
+
     const firstRow = projects.slice(0, 3);
     const secondRow = projects.slice(3, 6);
 
     return (
         <div>
             <section>
-                <div className="bg-[url('/gul2.png')] bg-cover bg-center h-[40vh] flex items-center justify-center rounded-b-lg">
-                    <h1 className="text-5xl font-bold text-[#274C5B]">Portfolio</h1>
-                </div>
+                <div className="bg-[url('/gul2.png')] bg-cover bg-center h-[40vh] flex items-center justify-center rounded-b-lg"
+                    style={{ backgroundImage: `url(${gul2})` }}
+                />
+
             </section>
 
             <section>

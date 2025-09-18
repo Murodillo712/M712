@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import Logo from '../public/Logo.png'
 
 const Sildebar = () => {
     const navigate = useNavigate();
@@ -16,7 +17,9 @@ const Sildebar = () => {
             <header className="w-full bg-white shadow-sm">
                 <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-10">
                     <div className="flex items-center gap-2">
-                        <img src="/Logo.png" alt="Logo" className="h-10" />
+                        <div className="h-10"
+                            style={{ backgroundImage: `url(${Logo})` }}
+                        />
                         <span className="text-2xl font-bold text-green-700">Organick</span>
                     </div>
 
