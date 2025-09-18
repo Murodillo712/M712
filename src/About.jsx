@@ -15,10 +15,10 @@ import icon3 from "../public/Icon3.png";
 import odam1 from "../public/odam1.png";
 import odam2 from "../public/odam2.png";
 import odam3 from "../public/odam3.png";
-import Spicy from "../public/spicy.png";
+import Spicy from "../public/Spicy.png";
 import Nuts from "../public/Nuts.png";
 import anor0 from "../public/anor.png";
-import Vegetable from "../public/vegetable.avif";
+import Vegetable from "../public/Vegetable.avif";
 import uy1 from "../public/uy1.svg";
 import uy2 from "../public/uy2.svg";
 
